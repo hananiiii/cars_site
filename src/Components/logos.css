@@ -1,0 +1,31 @@
+@keyframes fadeInScroll {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-logo {
+    animation: fadeInScroll 1s ease-in-out; /* Use your desired animation properties */
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+@keyframes fadeInScroll {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .home_text {
+    animation: bounce 2s infinite;
+  }
+  
