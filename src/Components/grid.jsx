@@ -31,12 +31,12 @@ const Grid = () => {
   }
 
   return (
-    <section className='px-24  py-8 text-title grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-12 mt-44'>
+    <section className='px-8 py-8 text-title grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-12 mt-44'>
       {/* Grid 1 */}
       <div
         onMouseEnter={() => handleMouseEnter(1)}
         onMouseLeave={handleMouseLeave}
-        className='cursor-pointer w-auto lg:h-[450px] rounded-md border border-title overflow-hidden'
+        className='cursor-pointer w-full lg:h-[450px] rounded-md border border-title overflow-hidden'
       >
         <div className='w-full h-[225px] rounded-md relative overflow-hidden'>
           <img
